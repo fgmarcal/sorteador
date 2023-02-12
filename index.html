@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <!-- página criada para geração de sorteios - desenvolvida por Felipe Garcia Marçal -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet"></head>
+<body>
+    <header>
+        <h1 class="h1-random">GERADOR DE SORTEIO</h1>
+    </header>
+    <main>
+        <div>
+            <fieldset>
+                               
+                    <input type="text" name="input-list-generator" id="input-list" placeholder="nome do participante">
+                    
+                    <button class="button" id="add-btn" type="button" onclick=clickMe()>inserir</button>
+                    <button type="reset" onclick=resetBtn()>limpar</button>
+                    
+              
+            </fieldset>
+        </div>
+
+        <div class="tabela">
+            <h2 id="contenders">PARTICIPANTES</h2>
+    
+                <ul id="lista">
+                    
+                </ul>
+  
+        </div>
+
+        <div>
+            <h2 id="result">CLIQUE PARA SORTEAR</h2>
+            <button id="run-event" type="button" onclick=randomGen()>sortear</button>
+        </div>
+        <div id="win"></div>
+        <div id="reload"></div>
+    </main>
+    <footer>
+        <a href="https://github.com/fgmarcal" target="_blank">Desenvolvido por Felipe Garcia Marçal</a>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
+
