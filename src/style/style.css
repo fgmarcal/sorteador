@@ -1,0 +1,134 @@
+body {
+    position: relative;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Rammetto One', cursive;
+    font-weight: 400;    
+    background-color: rgb(232, 202, 238);
+    background-image: radial-gradient(#7B2869, #FFBABA);
+}
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgba(63, 65, 56, 0.356);
+    font-size: 10px;
+}
+
+a:hover {
+    text-decoration: solid;
+    color: rgb(223, 214, 222);
+}
+
+fieldset {
+    border: none;
+}
+
+h1, footer {
+    margin-top: 50px;
+}
+
+input {
+    border-radius: 40px 50px;
+    font-size: 130%;
+    border: 5px solid;
+    border-color: #7B2869;
+    background-color: beige;
+    font-family: 'Rammetto One', cursive; 
+    color: #7B2869;
+}
+
+input:focus {
+    border: 5px solid;
+    outline: none;
+    border-color: #FFBABA;
+    opacity: 1;
+    transform: scale(1); 
+    background-color: rgb(243, 243, 209);  
+    font-family: 'Rammetto One', cursive; 
+    color: #5f1b50;
+}
+
+::placeholder {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+button {
+    border-radius: 40px 50px;
+    background-image: repeating-radial-gradient(#A31ACB, #FFBABA);
+    border-color: #7B2869;
+    color: #FDEBED;
+    font-weight: 900;
+}
+
+button:hover {
+    background-image: repeating-radial-gradient(#bd8dcc, #68021c);
+    color: beige;
+}
+
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #winner {
+    font-weight: 900;
+    font-size: larger;
+    color: #FDEBED;
+    display: none;
+    text-align: center;
+  }
+
+  #reload-btn {
+    opacity: 0;
+    margin-top: 100px;
+    -webkit-animation-name: reloadpage;
+    -webkit-animation-duration: 1s;
+    animation-name: reloadpage;
+    animation-duration: 1s
+  }
+
+  #contenders, #result, #run-event {
+    opacity: 0;
+  }
+
+  #lista {
+    color: #FDEBED;
+  }
+
+  @-webkit-keyframes reloadpage {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes reloadpage { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+
+  .h1-random {
+    font-size: 90px;
+    color: blanchedalmond;
+  }
