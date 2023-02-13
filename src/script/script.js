@@ -8,10 +8,14 @@ let runEvent = document.getElementById('run-event');
 let reloadPage = document.getElementById('reload');
 let hideHeader = document.getElementById('result');
 let hideContenders = document.getElementById('contenders');
+const isAlpha = /^[a-zA-Z() ]+$/;
 
 function clickMe(){
     if(inputValue.value ===""){
         alert("Nenhum nome para inserir")
+    }
+    else if(!inputValue.value.match(isAlpha)){
+        alert("Inválido");
     }
     else{
         list.push(inputValue.value);
