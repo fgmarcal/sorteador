@@ -4,4 +4,4 @@ Este projeto tem como objetivo criar um algoritmo de sorteio e uma página para 
 
 ## Teste a página online
 
-http://bit.ly/3E1Uu9Y
+https://codepen.io/fgmarcal/pen/NWLKROj
