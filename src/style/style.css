@@ -26,17 +26,17 @@ ul {
 }
 
 #git-img:hover {
-  content: url(../src/images/github-mark.png);
+  content: url(/src/images/github-mark.png);
   cursor: help;
 }
 
 #cpen-img:hover {
-  content: url(../src/images/code-pen-black.png);
+  content: url(/src/images/code-pen-black.png);
   cursor: help;
 }
 
 #lkdin-img:hover {
-  content: url(../src/images/linkedin-blue.png);
+  content: url(/src/images/linkedin-blue.png);
   cursor: help;
 }
 
