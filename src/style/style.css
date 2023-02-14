@@ -29,7 +29,7 @@ ul {
 }
 
 #git-img:hover {
-  content: url(/src/images/github-mark.png);
+  content: url(/src/images/github-mark-white.png);
   cursor: help;
 }
 
