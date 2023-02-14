@@ -10,6 +10,12 @@ let hideHeader = document.getElementById('result');
 let hideContenders = document.getElementById('contenders');
 const isAlpha = /^[a-zA-Z() ]+$/;
 
+inputValue.addEventListener("keypress", (e) => {
+    if(e.key == "Enter"){
+        clickMe();
+   }
+ });
+ 
 function clickMe(){
     if(inputValue.value ===""){
         alert("Nenhum nome para inserir")
@@ -34,7 +40,6 @@ function resetBtn() {
     inputValue.value = "";
 }
 
-
 function randomGen(){
     const len = list.length;
     let result = Math.floor(Math.random() * len);
@@ -51,14 +56,9 @@ function randomGen(){
         `
         runEvent.style.opacity = "0";
         hideHeader.style.color = "transparent";
-        loadButton();
-
+        loadPage = setTimeout(showPage, 2000);
     }
 
-}
-
-function loadButton() {
-  loadPage = setTimeout(showPage, 2000);
 }
 
 function showPage() {
