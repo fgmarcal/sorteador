@@ -15,16 +15,32 @@ ul {
 }
 
 
-a {
+.dev-name {
     text-decoration: none;
     color: rgba(63, 65, 56, 0.356);
     font-size: 10px;
 }
 
-a:hover {
-    text-decoration: solid;
-    color: rgb(223, 214, 222);
+#git-img, #cpen-img, #lkdin-img {
+  width: 25px;
 }
+
+#git-img:hover {
+  content: url(../src/images/github-mark.png);
+  cursor: help;
+}
+
+#cpen-img:hover {
+  content: url(../src/images/code-pen-black.png);
+  cursor: help;
+}
+
+#lkdin-img:hover {
+  content: url(../src/images/linkedin-blue.png);
+  cursor: help;
+}
+
+
 
 fieldset {
     border: none;
