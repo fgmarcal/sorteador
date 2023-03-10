@@ -154,3 +154,16 @@ button:hover {
     font-size: 90px;
     color: blanchedalmond;
   }
+
+  @media screen and (max-width: 400px) {
+    header {
+      max-width: 150px;
+      align-items: center;
+      display: flex;
+      margin: auto auto auto 60px;
+      
+    }
+    .h1-random {
+        font-size: 2rem;
+    }
+}
