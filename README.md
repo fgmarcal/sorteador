@@ -6,3 +6,5 @@ Este projeto tem como objetivo criar um algoritmo de sorteio e uma página para 
 ## Teste a página online
 
 https://codepen.io/fgmarcal/pen/NWLKROj
+
+https://fgmarcal.github.io/sorteador/
